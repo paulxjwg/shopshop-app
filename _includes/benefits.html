@@ -1,0 +1,18 @@
+<section class="benefits shell" id="benefits" aria-labelledby="benefits-title">
+  <div class="section-heading">
+    <h2 id="benefits-title" data-i18n="benefits.title">{{ t.benefits.title }}</h2>
+  </div>
+  <div class="bento">
+    {% assign feature_keys = 'together,sections,fast,suggestions,repeat' | split: ',' %}
+    {% assign feature_icons = 'sync,section,plus,spark,history' | split: ',' %}
+    {% for key in feature_keys %}
+      {% assign feature = t.benefits[key] %}
+      {% assign feature_icon = feature_icons[forloop.index0] %}
+      <article class="bento-tile bento-tile--{{ key }}">
+        {% include icon.html name=feature_icon %}
+        <h3 data-i18n="benefits.{{ key }}.title">{{ feature.title }}</h3>
+        <p data-i18n="benefits.{{ key }}.body">{{ feature.body }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

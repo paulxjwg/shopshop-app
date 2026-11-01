@@ -1,0 +1,20 @@
+<section class="screenshots shell" id="screenshots" aria-labelledby="screenshots-title">
+  <div class="section-heading">
+    <h2 id="screenshots-title" data-i18n="screens.title">{{ t.screens.title }}</h2>
+  </div>
+  <div class="screenshot-grid">
+    {% assign screen_keys = 'sharing,fast,sections,recent' | split: ',' %}
+    {% for key in screen_keys %}
+      {% assign screen = t.screens[key] %}
+      <figure class="screenshot-story">
+        <figcaption class="story-heading">
+          <h3 data-i18n="screens.{{ key }}.title">{{ screen.title }}</h3>
+          <p data-i18n="screens.{{ key }}.body">{{ screen.body }}</p>
+        </figcaption>
+        <div class="screenshot-image">
+          <img src="{{ screen.image | relative_url }}?v={{ site.time | date: '%s' }}" data-i18n-src="screens.{{ key }}.image" alt="{{ screen.alt }}" data-i18n-alt="screens.{{ key }}.alt" width="1320" height="2868" loading="lazy" decoding="async">
+        </div>
+      </figure>
+    {% endfor %}
+  </div>
+</section>

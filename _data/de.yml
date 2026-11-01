@@ -1,0 +1,79 @@
+meta:
+  page_title: Shopshop | Teilen. Schnell ergänzen.
+  description: Teile synchronisierte Einkaufslisten, füge Artikel hinzu, sobald sie dir einfallen, und sortiere jeden Laden nach Abteilungen.
+  privacy_description: Datenschutzinformationen für Shopshop.
+  changelog_description: Produktupdates für Shopshop.
+nav:
+  changelog: Changelog
+  privacy: Datenschutz
+  primary_label: Hauptnavigation
+  language_label: Sprache
+  skip: Zum Inhalt springen
+footer:
+  contact: Shopshop-Support per E-Mail kontaktieren
+  navigation_label: Footernavigation
+  back_to_top: Nach oben
+theme:
+  light: Zur hellen Darstellung wechseln
+  dark: Zur dunklen Darstellung wechseln
+hero:
+  title: Teilen.
+  title_accent: Schnell ergänzen.
+  body: Teile deine Einkaufsliste, füge Artikel schnell hinzu und ordne die Abteilungen in jedem Laden so, wie du durch ihn gehst.
+  explore: Schau dich um
+  image: /assets/screenshots/de-DE/iphone-article-list.png
+  image_alt: Eine offene Wocheneinkaufsliste mit Artikeln nach Abteilungen und Mengen neben jedem Artikel.
+download:
+  pending: Bald im App Store
+  badge: /assets/brand/app-store-de.svg
+  alt: Im App Store laden
+benefits:
+  title: Gemacht für den Alltag.
+  together:
+    title: Geteilte Listen, immer synchron
+    body: Teile eine Einkaufsliste über iCloud, damit alle in deinem Haushalt ergänzen können, was fehlt.
+  fast:
+    title: Schnell hinzufügen
+    body: Füge Artikel hinzu, sobald sie dir einfallen.
+  suggestions:
+    title: Intelligente Vorschläge
+    body: Lass Vorschläge passende Artikel, Mengen und Abteilungen anzeigen.
+  sections:
+    title: Nach Abteilungen sortiert
+    body: Lege für jeden Laden eine eigene Reihenfolge fest, passend zu deinem Einkaufsweg.
+  repeat:
+    title: Wiederkehrende Einkäufe
+    body: Zuletzt gekaufte und meistgekaufte Artikel bleiben leicht erreichbar, damit die nächste Liste schneller startet.
+screens:
+  title: Shopshop im Einsatz
+  sharing:
+    title: Liste teilen, schneller einkaufen
+    image: /assets/screenshots/de-DE/iphone-store-list.png
+    alt: Der Wocheneinkauf ist mit „Von dir geteilt“ markiert, der Wochenmarkt mit „Mit dir geteilt“.
+    body: Sieh, welche Listen du teilst und welche andere mit dir teilen.
+  fast:
+    title: Schnell hinzufügen, bevor du es vergisst
+    image: /assets/screenshots/de-DE/iphone-fast-add.png
+    alt: Im Eingabefeld steht „2x Milch“. Darunter erscheint ein passender Vorschlag mit der Abteilung Milchprodukte.
+    body: Tippe „2x Milch“. Der Vorschlag enthält schon die Menge und die Abteilung Milchprodukte.
+  sections:
+    title: Passe die Liste an deinen Laden an
+    image: /assets/screenshots/de-DE/iphone-section-order.png
+    alt: Die Reihenfolge der Abteilungen mit Griffen zum Verschieben neben Obst & Gemüse, Milchprodukte, Bäckerei und Vorrat.
+    body: Kommst du zuerst an der Bäckerei vorbei? Zieh sie für diesen Laden vor die Milchprodukte.
+  recent:
+    title: Regelmäßiges schnell wieder hinzufügen
+    image: /assets/screenshots/de-DE/iphone-recent-items.png
+    alt: Einkaufshistorie mit Ansichten für zuletzt und häufig Gekauftes sowie Plus-Tasten neben früheren Einkäufen.
+    body: Tippe auf das Plus neben einem früher gekauften Artikel, um ihn wieder auf die Liste zu setzen.
+changelog:
+  title: Changelog
+  first_release: Die erste Version von Shopshop.
+privacy:
+  title: Datenschutzerklärung
+  updated: Zuletzt aktualisiert
+  intro: Die App Shopshop sammelt keine Nutzerdaten und trackt ihre Nutzer in keiner Weise.
+  analytics: stellt für Apps im App Store zusammengefasste Nutzungsstatistiken bereit. Ihre Nutzung wird nur berücksichtigt, wenn Sie der Weitergabe von Analysedaten an App-Entwickler zustimmen.
+  storage: Shopshop verwendet Apple CloudKit, um Daten zwischen Ihren Apple-Geräten zu synchronisieren. Ihre Daten werden verschlüsselt in einer privaten iCloud-Datenbank gespeichert. Als Entwickler haben wir weder Zugriff auf die in Ihrem iCloud-Account gespeicherten Daten noch auf Ihre Apple-ID. Wenn Sie Inhalte teilen, können die von Ihnen eingeladenen Personen diese ansehen und bearbeiten.
+  deletion: Sie können Ihre von dieser App in iCloud gespeicherten Daten über die iCloud-Datenverwaltungsoptionen in den Einstellungen löschen. Freigaben können Sie in der App beenden.
+  apple_policy: "Weitere Informationen finden Sie in der Datenschutzrichtlinie von Apple:"

@@ -1,0 +1,20 @@
+<footer class="site-footer shell">
+  <a class="footer-brand" href="{{ '/' | relative_url }}">
+    <img src="{{ site.brand.icon | relative_url }}" alt="" width="32" height="32" loading="lazy">
+    <span>Shopshop</span>
+  </a>
+  <nav class="footer-nav" aria-label="{{ t.footer.navigation_label }}" data-i18n-aria-label="footer.navigation_label">
+    {% if store_url != '' %}
+      <a href="{{ store_url | escape }}" data-i18n="download.alt">{{ t.download.alt }}</a>
+    {% endif %}
+    <a href="{{ '/changelog/' | relative_url }}" data-i18n="nav.changelog"{% if page.url == '/changelog/' %} aria-current="page"{% endif %}>{{ t.nav.changelog }}</a>
+    <a href="{{ '/privacypolicy/' | relative_url }}" data-i18n="nav.privacy"{% if page.url == '/privacypolicy/' %} aria-current="page"{% endif %}>{{ t.nav.privacy }}</a>
+    <a class="footer-contact" href="mailto:{{ site.contact_email | escape }}" aria-label="{{ t.footer.contact }}" data-i18n-aria-label="footer.contact" title="{{ t.footer.contact }}" data-i18n-title="footer.contact">
+      {% include icon.html name="envelope" %}
+    </a>
+    <a class="footer-top" href="#top">
+      <span data-i18n="footer.back_to_top">{{ t.footer.back_to_top }}</span>
+      {% include icon.html name="arrow-up" %}
+    </a>
+  </nav>
+</footer>

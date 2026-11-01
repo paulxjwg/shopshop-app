@@ -1,0 +1,26 @@
+title: Shopshop
+page_title: Shopshop | Share lists. Add fast.
+description: Share synced grocery lists, add groceries as you think of them, and keep each store sorted by section.
+lang: en
+url: https://paulxjwg.github.io
+baseurl: /shopshop-app
+contact_email: "paulbernhard.dev@gmail.com"
+
+app:
+  name: Shopshop
+  # Leave empty for the coming-soon message. Set the live URL to enable downloads.
+  app_store_url:
+  ios_app_id: "6761381009"
+
+brand:
+  icon: /assets/brand/app-icon.png
+  social_image: /assets/brand/app-icon.png
+
+markdown: kramdown
+exclude:
+  - README.md
+  - DESIGN.md
+  - docs
+  - scripts
+  - script
+  - Makefile

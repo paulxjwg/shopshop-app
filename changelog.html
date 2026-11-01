@@ -1,0 +1,16 @@
+---
+layout: page
+title: Changelog
+permalink: /changelog/
+description: Product updates for Shopshop.
+i18n_title_key: changelog.title
+i18n_description_key: meta.changelog_description
+---
+{% assign t = site.data.en %}
+{% assign store_url = site.app.app_store_url | default: '' | strip %}
+<h2>Version 1.0</h2>
+{% if store_url == '' %}
+<p data-i18n="download.pending">{{ t.download.pending }}</p>
+{% else %}
+<p data-i18n="changelog.first_release">{{ t.changelog.first_release }}</p>
+{% endif %}

@@ -1,0 +1,79 @@
+meta:
+  page_title: Shopshop | Share lists. Add fast.
+  description: Share synced grocery lists, add groceries as you think of them, and keep each store sorted by section.
+  privacy_description: Privacy information for Shopshop.
+  changelog_description: Product updates for Shopshop.
+nav:
+  changelog: Changelog
+  privacy: Privacy
+  primary_label: Main navigation
+  language_label: Language
+  skip: Skip to content
+footer:
+  contact: Email Shopshop support
+  navigation_label: Footer navigation
+  back_to_top: Back to top
+theme:
+  light: Switch to light mode
+  dark: Switch to dark mode
+hero:
+  title: Share lists.
+  title_accent: Add fast.
+  body: Shop from the same synced list, add groceries quickly, and organize each store in the order you actually walk it.
+  explore: Take a closer look
+  image: /assets/screenshots/en-US/iphone-article-list.png
+  image_alt: An open Weekly Shop list with groceries grouped by section and quantities beside each item.
+download:
+  pending: Coming soon to the App Store
+  badge: /assets/brand/app-store-en.svg
+  alt: Download on the App Store
+benefits:
+  title: Built for everyday shopping.
+  together:
+    title: Shared lists that stay in sync
+    body: Share a grocery list through iCloud so everyone at home can add what’s missing.
+  fast:
+    title: Fast add
+    body: Add groceries as you think of them.
+  suggestions:
+    title: Smart suggestions
+    body: Let suggestions surface matching items, quantities, and sections.
+  sections:
+    title: Section-sorted shopping
+    body: Set a different section order for each store to match the way you walk through it.
+  repeat:
+    title: Repeat shopping
+    body: Recent and most-bought items stay easy to re-add, so the next list starts from what you already buy.
+screens:
+  title: Grocery lists for real life
+  sharing:
+    title: Share your list, shop faster
+    image: /assets/screenshots/en-US/iphone-store-list.png
+    alt: Weekly Shop is marked Shared by you, and Farmers Market is marked Shared with you.
+    body: See which lists you share and which ones others share with you.
+  fast:
+    title: Add it before you forget it
+    image: /assets/screenshots/en-US/iphone-fast-add.png
+    alt: The add-item screen shows “2x Milk” and a matching suggestion labeled Dairy.
+    body: Type “2x milk”. The suggestion includes the quantity and the Dairy section.
+  sections:
+    title: Match the list to your store
+    image: /assets/screenshots/en-US/iphone-section-order.png
+    alt: The Section Order screen with drag handles beside Produce, Dairy, Bakery, and Pantry.
+    body: Pass the bakery before dairy? Drag Bakery above Dairy for this store.
+  recent:
+    title: Add your regulars again
+    image: /assets/screenshots/en-US/iphone-recent-items.png
+    alt: Purchase history with Chronological and Most Bought tabs and plus buttons beside previous purchases.
+    body: Tap the plus beside a past purchase to put it back on your list.
+changelog:
+  title: Changelog
+  first_release: The first version of Shopshop.
+privacy:
+  title: Privacy Policy
+  updated: Last updated
+  intro: Shopshop does not collect user data or track its users in any way.
+  analytics: provides aggregate usage statistics for apps distributed through the App Store. Your usage is included only if you agree to share analytics with app developers.
+  storage: Shopshop uses Apple CloudKit to sync data between your Apple devices. Your data is stored in encrypted form in a private iCloud database. As developers, we have access to neither the data stored in your iCloud account nor your Apple ID. If you share content, the people you invite can view and edit it.
+  deletion: You can delete the data this app stores in iCloud through the iCloud storage options in Settings. You can stop sharing in the app.
+  apple_policy: "For more information, see Apple’s privacy policy:"

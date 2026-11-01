@@ -1,0 +1,30 @@
+<head>
+  {% assign page_title_key = page.i18n_title_key | default: 'meta.page_title' %}
+  {% assign page_description_key = page.i18n_description_key | default: 'meta.description' %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="{{ page_title_key }}">{{ page.title | default: site.page_title }}</title>
+  <meta name="description" content="{{ page.description | default: t.meta.description }}" data-i18n-content="{{ page_description_key }}">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try {
+      var theme = localStorage.getItem("shopshop-theme");
+      if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+    } catch (_) {}
+  </script>
+  {% if store_url != '' and site.app.ios_app_id %}
+    <meta name="apple-itunes-app" content="app-id={{ site.app.ios_app_id }}">
+  {% endif %}
+  <link rel="icon" href="{{ site.brand.icon | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ site.brand.icon | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | default: site.page_title }}" data-i18n-content="{{ page_title_key }}">
+  <meta property="og:description" content="{{ page.description | default: t.meta.description }}" data-i18n-content="{{ page_description_key }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.brand.social_image | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="{{ '/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <script id="site-i18n-data" type="application/json">{"en":{{ site.data.en | jsonify }},"de":{{ site.data.de | jsonify }}}</script>
+  <script defer src="{{ '/assets/app.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+</head>

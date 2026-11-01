@@ -1,0 +1,10 @@
+{% assign store_url = site.app.app_store_url | default: '' | strip %}
+<div class="download">
+  {% if store_url != '' %}
+  <a class="app-store-badge" href="{{ store_url | escape }}">
+    <img src="{{ t.download.badge | relative_url }}" data-i18n-src="download.badge" alt="{{ t.download.alt }}" data-i18n-alt="download.alt" width="180" height="60">
+  </a>
+  {% else %}
+  <p class="release-status" data-i18n="download.pending">{{ t.download.pending }}</p>
+  {% endif %}
+</div>

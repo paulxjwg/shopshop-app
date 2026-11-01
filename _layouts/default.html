@@ -1,0 +1,12 @@
+{% assign store_url = site.app.app_store_url | default: '' | strip %}
+<!doctype html>
+<html lang="en" data-theme="auto" data-base-path="{{ site.baseurl }}" data-asset-version="{{ site.time | date: '%s' }}">
+{% assign t = site.data.en %}
+{% include head.html %}
+<body>
+  <a class="skip-link" href="#main" data-i18n="nav.skip">{{ t.nav.skip }}</a>
+  {% include site-header.html %}
+  <main id="main" tabindex="-1">{{ content }}</main>
+  {% include footer.html %}
+</body>
+</html>

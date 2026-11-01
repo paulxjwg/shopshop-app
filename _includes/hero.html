@@ -1,0 +1,9 @@
+<section class="hero shell" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <h1 id="hero-title"><span data-i18n="hero.title">{{ t.hero.title }}</span><span class="hero-accent" data-i18n="hero.title_accent">{{ t.hero.title_accent }}</span></h1>
+    <p class="hero-description" data-i18n="hero.body">{{ t.hero.body }}</p>
+    {% include app-store.html %}
+    <a class="text-link" href="#screenshots"><span data-i18n="hero.explore">{{ t.hero.explore }}</span><span aria-hidden="true">&darr;</span></a>
+  </div>
+  <img class="hero-screenshot" src="{{ t.hero.image | relative_url }}?v={{ site.time | date: '%s' }}" data-i18n-src="hero.image" alt="{{ t.hero.image_alt }}" data-i18n-alt="hero.image_alt" width="1320" height="2868" fetchpriority="high">
+</section>

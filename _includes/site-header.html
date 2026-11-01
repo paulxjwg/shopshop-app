@@ -1,0 +1,24 @@
+<header class="site-header" id="top" tabindex="-1">
+  <div class="shell header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ site.brand.icon | relative_url }}" alt="" width="36" height="36">
+      <span>Shopshop</span>
+    </a>
+    <nav class="site-nav" aria-label="{{ t.nav.primary_label }}" data-i18n-aria-label="nav.primary_label">
+      <a href="{{ '/changelog/' | relative_url }}" data-i18n="nav.changelog"{% if page.url == '/changelog/' %} aria-current="page"{% endif %}>{{ t.nav.changelog }}</a>
+      <a href="{{ '/privacypolicy/' | relative_url }}" data-i18n="nav.privacy"{% if page.url == '/privacypolicy/' %} aria-current="page"{% endif %}>{{ t.nav.privacy }}</a>
+    </nav>
+    <div class="nav-controls">
+      <div class="toolbar-switch" role="group" aria-label="{{ t.nav.language_label }}" data-i18n-aria-label="nav.language_label">
+        <button type="button" data-locale-button="en" aria-pressed="true" lang="en" aria-label="English">EN</button>
+        <button type="button" data-locale-button="de" aria-pressed="false" lang="de" aria-label="Deutsch">DE</button>
+      </div>
+      <div class="toolbar-switch theme-switch">
+        <button type="button" class="theme-toggle" data-theme-toggle aria-label="{{ t.theme.dark }}" title="{{ t.theme.dark }}" hidden>
+          <span data-theme-icon="light">{% include icon.html name="sun" %}</span>
+          <span data-theme-icon="dark">{% include icon.html name="moon" %}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
