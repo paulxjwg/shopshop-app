@@ -9,7 +9,7 @@ contact_email: "paulbernhard.dev@gmail.com"
 app:
   name: Shopshop
   # Leave empty for the coming-soon message. Set the live URL to enable downloads.
-  app_store_url:
+  app_store_url: "https://apps.apple.com/app/apple-store/id6761381009?pt=121428407&ct=landing%20page&mt=8"
   ios_app_id: "6761381009"
 
 brand:
