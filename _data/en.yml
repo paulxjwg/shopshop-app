@@ -69,6 +69,16 @@ screens:
 changelog:
   title: Changelog
   first_release: The first version of Shopshop.
+  v101:
+    features:
+      title: Features
+      note: In Last Bought, swipe left or touch and hold to remove a single purchase
+    improvements:
+      title: Improvements
+      note: Edit now appears only when there are items to edit
+    bugfixes:
+      title: Bugfixes
+      note: Fixed a problem that could prevent typing in New Section while adding an item
 privacy:
   title: Privacy Policy
   updated: Last updated

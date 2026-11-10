@@ -69,6 +69,16 @@ screens:
 changelog:
   title: Changelog
   first_release: Die erste Version von Shopshop.
+  v101:
+    features:
+      title: Features
+      note: Unter „Zuletzt gekauft“ kannst du einzelne Einträge durch Wischen nach links oder langes Drücken entfernen
+    improvements:
+      title: Verbesserungen
+      note: „Bearbeiten“ erscheint nur noch, wenn es Artikel zum Bearbeiten gibt
+    bugfixes:
+      title: Fehlerbehebungen
+      note: Beim Hinzufügen eines Artikels können neue Abteilungen jetzt wieder zuverlässig benannt und hinzugefügt werden
 privacy:
   title: Datenschutzerklärung
   updated: Zuletzt aktualisiert
