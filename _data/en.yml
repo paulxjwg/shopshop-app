@@ -69,6 +69,11 @@ screens:
 changelog:
   title: Changelog
   first_release: The first version of Shopshop.
+  v102:
+    title: Improvements
+    notes:
+      - At larger text sizes, each section has its own heading so item names have more room
+      - Other screens are also easier to read at larger text sizes
   v101:
     features:
       title: Features

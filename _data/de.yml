@@ -69,6 +69,11 @@ screens:
 changelog:
   title: Changelog
   first_release: Die erste Version von Shopshop.
+  v102:
+    title: Verbesserungen
+    notes:
+      - Bei größerer Schrift steht die Abteilung als Überschrift über den Artikeln. So bleibt mehr Platz für die Artikelnamen
+      - Auch andere Ansichten sind bei größerer Schrift leichter zu lesen
   v101:
     features:
       title: Features
